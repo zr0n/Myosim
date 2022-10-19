@@ -48,7 +48,7 @@ const Myosim = {
     }
 }
 
-Myosim.injectMyopia(1); 
+Myosim.injectMyopia(0.65); 
 
 window.addEventListener("load", function(){ 
     chrome.storage.sync.get(['myopiaLevel'], function(result) {

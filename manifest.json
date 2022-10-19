@@ -1,9 +1,12 @@
 {
-  // Required
   "manifest_version": 3,
   "name": "Myosim",
   "version": "0.1",
-  // Recommended
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "description": "Simulate myopia on user browser. Ctrl + M to set the level.",
   "content_scripts": [{
     "matches": ["*://*/*"],
